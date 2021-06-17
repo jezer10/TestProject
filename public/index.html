@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <div class="layout">
+    <div class="images main__background container1"></div>
+    <div class="images main__background container2"></div>
+    <div class="images main__background container3"></div>
+    <div class="main__background container4"></div>
+    <div class="main__background container5"></div>
+    
+
+    <div class="wrapper z-50 min-w-screen min-h-screen flex flex-wrap content-center">
+      <div class="card bg-white p-6 max-w-sm mx-auto rounded-xl shadow-md bg-indigo-100">
+        <div class="card__title flex justify-center">
+          <h2 class="text-xl font-black">Log In</h2>
+        </div>
+        <div class="px-2 card__error-logs border bg-red-100 border-red-900 my-5">
+          <p class="text-sm text-red-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident hic facere
+            voluptates quidem fugiat voluptatem, amet inventore deserunt odit eligendi similique distinctio
+            reprehenderit
+            quasi exercitationem! Molestias laudantium fugit maxime. Nihil.</p>
+        </div>
+        <div class="card__input--username mb-5">
+          <input placeholder="Username"
+            class="rounded-full text-lg border-0 shadow-md w-full focus:shadow-inner focus:outline-none px-4 py-0.5"
+            type="text">
+        </div>
+        <div class="card__input--password border-0 my-5">
+          <input placeholder="Password"
+            class="focus:shadow-inner mb-2 rounded-full text-lg shadow-md  w-full focus:outline-none px-4 py-0.5"
+            type="password">
+          <div class="password__checkbox">
+            <input class="mx-1 outline-none" type="checkbox" name="" id="cbox"><label class="mx-1 text-sm text-gray-400"
+              for="cbox">Show Password</label>
+          </div>
+        </div>
+
+        <div class="card__button--submit w-full flex justify-center">
+          <button
+            class="px-4 py-2 focus:shadow-inner shadow-2xl text-sm bg-pink-900 text-white font-medium">LOGIN</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

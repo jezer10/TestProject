@@ -4,7 +4,8 @@
   "description": "Temporary repository",
   "main": "index.js",
   "scripts": {
-    "dev":"",
+    "dev": "postcss css/tailwind.css -o public/css/styles.css --watch",
+    "build":"postcss css/tailwind.css -o public/css/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/jezer10/TestProject/issues"
   },
-  "homepage": "https://github.com/jezer10/TestProject#readme"
+  "homepage": "https://github.com/jezer10/TestProject#readme",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.0"
+  }
 }
