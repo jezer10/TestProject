@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+</style>
+
+<body class="">
+    <div class="wrapper min-h-screen flex flex-col">
+
+        <div class="evaluation_steps m-10 flex justify-center">
+            <div class="evalution_steps__controls flex space-x-2 items-center">
+                <div class="evaluation_steps__focus w-20 h-20 bg-gray-100 rounded-full shadow-lg flex items-center justify-center">
+                    <i class="fas fa-user text-indigo-900 text-4xl"></i>
+                </div>
+                <hr class="w-10 border-0 h-0.5 bg-gray-500">
+                <div class="evaluation_steps__default w-20 h-20 bg-gray-100 rounded-full shadow-lg flex items-center justify-center">
+                    <i class="fas fa-folder text-indigo-900 text-4xl"></i>
+                </div>
+                <hr class="w-10  border-0 h-0.5 bg-gray-500">
+                <div class="evaluation_steps__default w-20 h-20 bg-gray-100 rounded-full shadow-lg flex items-center justify-center">
+                    <i class="far fa-newspaper text-indigo-900 text-4xl"></i>
+                </div>
+            </div>
+            
+
+        </div>
+
+        <div class="evaluation_preinscription flex justify-center">
+            <div class="form_inscription max-w-2xl  bg-purple-100 rounded-xl p-4 shadow-md">
+                <div class="form_inscription__title text-center sm:text-center lg:text-left">
+                    <h1 class="font-black text-lg">Requisitos de preinscripcion</h1>
+                </div>
+                <div class="form_inscription__control flex flex-col sm:grid sm:grid-cols-2 sm:gap-6 lg:grid-cols-3">
+                    <div class="form_inscription__control--input flex flex-col">
+                        <label class="mx-auto text-sm font-mono" for="">DNI</label>
+                        <input type="text" class="px-4 py-1 rounded-full shadow-sm focus:outline-none">
+                    </div>
+                    <div class="form_inscription__control--input flex flex-col">
+                        <label class="mx-auto text-sm font-mono" for="">Categoria Actual</label>
+                        <input type="text" class="px-4 py-1 rounded-full shadow-sm focus:outline-none">
+                    </div>
+                    <div class="form_inscription__control--input flex flex-col">
+                        <label class="mx-auto text-sm font-mono" for="">Categoria Esperada</label>
+                        <input type="text" class="px-4 py-1 rounded-full shadow-sm focus:outline-none">
+                    </div>
+                    <div class="form_inscription__control--input flex flex-col">
+                        <label class="mx-auto text-sm font-mono" for="">Sede</label>
+                        <input type="text" class="px-4 py-1 rounded-full shadow-sm focus:outline-none">
+                    </div>
+                    <div class="form_inscription__control--input flex flex-col">
+                        <label class="mx-auto text-sm font-mono" for="">Facultad</label>
+                        <input type="text" class="px-4 py-1 rounded-full shadow-sm focus:outline-none">
+                    </div>
+                    <div class="form_inscription__control--input flex flex-col">
+                        <label class="mx-auto text-sm font-mono" for="">Escuela profesional</label>
+                        <input type="text" class="px-4 py-1 rounded-full shadow-sm focus:outline-none">
+                    </div>
+    
+                </div>
+                <div class="form_inscription__bottom m-5 flex">
+                    <div class="payment-methods flex flex-col w-1/2 items-center">
+                        <div class="payment-methods__title">
+                            <h2 class="font-semibold">Metodo de pago</h2>
+                        </div>
+                        <div class="method__mercadopago">
+                            <button class="bg-red-500 py-2 rounded-lg">
+                                <img src="images/marketpy.png" alt="mercadopago.png">
+                            </button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+
+
+</body>
+
+</html>
