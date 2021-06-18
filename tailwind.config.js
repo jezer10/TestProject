@@ -268,6 +268,7 @@ module.exports = {
       ],
     },
     fontSize: {
+      'xxs':['0.625rem',{lineHeight:'0.75'}],
       xs: ['0.75rem', { lineHeight: '1rem' }],
       sm: ['0.875rem', { lineHeight: '1.25rem' }],
       base: ['1rem', { lineHeight: '1.5rem' }],
@@ -842,7 +843,7 @@ module.exports = {
     backgroundAttachment: ['responsive'],
     backgroundBlendMode: ['responsive'],
     backgroundClip: ['responsive'],
-    backgroundColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
+    backgroundColor: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus','active'],
     backgroundImage: ['responsive'],
     backgroundOpacity: ['responsive', 'dark', 'group-hover', 'focus-within', 'hover', 'focus'],
     backgroundPosition: ['responsive'],
@@ -920,7 +921,7 @@ module.exports = {
     objectPosition: ['responsive'],
     opacity: ['responsive', 'group-hover', 'focus-within', 'hover', 'focus'],
     order: ['responsive'],
-    outline: ['responsive', 'focus-within', 'focus'],
+    outline: ['responsive', 'focus-within', 'focus','active'],
     overflow: ['responsive'],
     overscrollBehavior: ['responsive'],
     padding: ['responsive'],
@@ -967,5 +968,5 @@ module.exports = {
     wordBreak: ['responsive'],
     zIndex: ['responsive', 'focus-within', 'focus'],
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/typography'),require('@tailwindcss/forms')],
 }

@@ -9,6 +9,7 @@
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="css/styles.css"/>
   <link rel="stylesheet" href="css/style.css"/>
+  <script src="js/script.js"></script>
 
 </head>
 
@@ -32,24 +33,24 @@
             reprehenderit
             quasi exercitationem! Molestias laudantium fugit maxime. Nihil.</p>
         </div>
-        <div class="card__input--username mb-5">
+        <div class="card__input-username mb-5">
           <input placeholder="Username"
             class="rounded-full text-lg border-0 shadow-md w-full focus:shadow-inner focus:outline-none px-4 py-0.5"
             type="text">
         </div>
-        <div class="card__input--password border-0 my-5">
+        <div class="card__input-password my-5">
           <input placeholder="Password"
-            class="focus:shadow-inner mb-2 rounded-full text-lg shadow-md  w-full focus:outline-none px-4 py-0.5"
+            class="input-password focus:shadow-inner mb-2 border-0 rounded-full text-lg shadow-md  w-full focus:outline-none px-4 py-0.5"
             type="password">
           <div class="password__checkbox">
-            <input class="mx-1 outline-none" type="checkbox" name="" id="cbox"><label class="mx-1 text-sm text-gray-400"
+            <input class="mx-1 form-checkbox rounded-full text-ping-900 " onclick="changeTypePassword(event.target)" type="checkbox" name="" id="cbox"><label class="mx-1 text-sm text-gray-400"
               for="cbox">Show Password</label>
           </div>
         </div>
 
         <div class="card__button--submit w-full flex justify-center">
           <button
-            class="px-4 py-2 focus:shadow-inner shadow-2xl text-sm bg-pink-900 text-white font-medium">LOGIN</button>
+            class="px-4 py-2 focus:outline-none active:bg-pink-900  shadow-lg text-sm bg-pink-800 text-white font-medium rounded-md">LOGIN</button>
         </div>
       </div>
     </div>

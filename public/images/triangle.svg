@@ -1,0 +1,10 @@
+<svg class="mx-2" xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 15.329 19.259">
+    <g id="Grupo_4" data-name="Grupo 4" transform="translate(-1317.671 -952.871)">
+        <g id="Grupo_6" data-name="Grupo 6">
+            <g id="Polígono_2" data-name="Polígono 2" transform="matrix(0.017, 1, -1, 0.017, 1332.668, 952.871)" fill="#fff">
+                <path d="M 18.09148597717285 14.5 L 0.9085114002227783 14.5 L 9.499999046325684 0.9344931840896606 L 18.09148597717285 14.5 Z" stroke="none" />
+                <path d="M 9.499999046325684 1.868976593017578 L 1.8170166015625 14 L 17.18298149108887 14 L 9.499999046325684 1.868976593017578 M 9.499999046325684 0 L 19 15 L -1.9073486328125e-06 15 L 9.499999046325684 0 Z" stroke="none" fill="#fff" />
+            </g>
+        </g>
+    </g>
+</svg>
